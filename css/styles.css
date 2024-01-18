@@ -1,0 +1,16 @@
+body {
+  background: #f6f6fa;
+  padding: 40px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row-reverse;
+  background: #fff;
+}
+
+.main-conteiner {
+  box-sizing: border-box;
+  padding: 80px 40px 80px 80px;
+}
