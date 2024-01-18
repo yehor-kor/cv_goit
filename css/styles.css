@@ -10,7 +10,86 @@ body {
   background: #fff;
 }
 
-.main-conteiner {
+.main {
   box-sizing: border-box;
   padding: 80px 40px 80px 80px;
+}
+
+.sidebar {
+  box-sizing: border-box;
+  padding: 40px 0 40px;
+  background: #e0ebfe;
+  width: 370px;
+}
+
+.sidebar__main {
+  box-sizing: border-box;
+  padding: 40px 40px 40px;
+}
+
+.contacts {
+  margin-bottom: 40px;
+}
+
+.contacts__title {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 0;
+  margin-bottom: 8px;
+  color: #161d2a;
+}
+
+.contacts__type {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-right: 8px;
+  color: #161d2a;
+}
+
+.contacts__link {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-decoration-line: underline;
+  color: #2979ff;
+}
+
+.contacts__item {
+  margin-top: 0;
+  margin-bottom: 4px;
+}
+
+.skills {
+  margin-bottom: 40px;
+}
+
+.skills__title {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 0;
+  margin-bottom: 8px;
+  color: #161d2a;
+}
+
+.skills__list {
+  padding-left: 20px;
+  list-style: none;
+}
+
+.skills__item {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #161d2a;
+}
+
+.skills__item::before {
+  content: '.';
+  position: relative;
+  left: -15px;
+  top: -2px;
+  font-size: 30px;
 }
